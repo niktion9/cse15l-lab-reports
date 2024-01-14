@@ -30,7 +30,7 @@ Explanation: The cd command stands for "change directory", meaning it takes a di
 [user@sahara ~/lecture1]$
 ```
 
-Here is a codeblock, where I used the pwd (print working directory) command to check what the working directory was after the running the cd command with no arguments:
+Here is a codeblock, where I used the pwd (print working directory) command to check what the working directory was after the running the cd command with a directory as an argument:
 
 ```
 [user@sahara ~]$ pwd
