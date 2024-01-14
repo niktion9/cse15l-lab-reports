@@ -23,5 +23,7 @@ Here is a codeblock, where I used the pwd (print working directory) command to c
 /home
 ```
 
+> Example 2 (cd command with directory argument):
+> 
 
 
