@@ -64,6 +64,7 @@ Explanation: For this example, I have added a new file in the filesystem outside
 
 Error or No Error: This trial resulted into an error because the cd command only changes directories, not files. testCd is a file.
 
+
 ## Examples of the ls Command
 > ### Example 1: ls command with no arguments
 
@@ -82,6 +83,37 @@ Explanation: The ls command is responsible for listing the files and folders in 
 Error or No Error: It is not an error.
 
 > ### Example 2: ls command with directory argument
+
+```
+[user@sahara ~]$ ls lecture1/
+Hello.class  Hello.java  messages  README
+[user@sahara ~]$
+```
+
+Working directory: home directory? lecture1 directory?
+
+Explanation: With the lecture1/ directopry as the specified argument, the ls commad listed the files and folder that lecture1 consisted of in the filesystem.
+
+Error or No Error: It is not an error.
+
+> ### Example 3: ls command with file argument
+
+```
+[user@sahara ~]$ ls testCd
+testCd
+[user@sahara ~]$ ls lecture1/README
+lecture1/README
+[user@sahara ~]$
+```
+
+Working directory: home directory (appraoch 1) and lecture1 directpry (appraoch 2)
+
+Explanation: I have tries two appraoched with having a file as a parameter. I first tries the sisngle testCd file which has no addition content to it, and the output for that is just the file name. I have also used the README file in the lecture1 directory as a parameter and the command once again just listed lecture1/README, as there is not further classified conent within a singular file.
+
+Error or No Error: It is not an error.
+
+
+## Examples of the cat command
 
 ```
 
