@@ -9,5 +9,5 @@
 [user@sahara ~]$
 ```
 
-Working Directory: home directory (home/)
+Working Directory: home directory (/home)
 
