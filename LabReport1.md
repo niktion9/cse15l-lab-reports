@@ -141,7 +141,27 @@ Explanation: Since the only directory in the filesystem is lecture1, it was used
 
 Error or No Error: ???
 
-> ### Example 3: 
+> ### Example 3: cat command with file argument
+
+```
+[user@sahara ~]$ cat testCd
+Hi!!
+This file outside lecture1 used for test file arguments!
+[user@sahara ~]$ cat testCd lecture1/README
+Hi!!
+This file outside lecture1 used for test file arguments!
+To use this program:
+
+javac Hello.java
+java Hello messages/en-us.txt
+[user@sahara ~]$
+```
+
+Working Directory: Home directory and lecture1 directory?
+
+Explanation: Since the cat command has the abilty to print details of *one or more* files, I have tried two approaches for this example. I have put some text is the testCd file and used that as my furst argument, which resulted in the message that was in the file. Then, I also tried the cat command with two files, one being testCd and the other being the README file in lecture1. As expected, the output was a combination of the coentent present in both teh files.
+
+Error or No Error: It is not an error.
 
 
 
