@@ -41,9 +41,9 @@ Here is a codeblock, where I used the pwd (print working directory) command to c
 [user@sahara ~/lecture1]$
 ```
 
-Working Directory: home directory and lecture1 directory
+Working Directory: lecture1 directory
 
-Explantion:
+Explantion: In the filespace, the only directory present is lecture1, which is home to a few files and the messages directory (its contain messages of "hello world" in different languages). This time, lecture1 is mentioned as the argument for the cd command, which resulted in a new terminal line with the context "~/lecture1" because the dollatr sign, indicating that we are sucessfully trasitioend into the lecture1 directory.
 
 
 
