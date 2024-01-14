@@ -108,7 +108,7 @@ lecture1/README
 
 Working directory: home directory (appraoch 1) and lecture1 directpry (appraoch 2)
 
-Explanation: I have tries two appraoched with having a file as a parameter. I first tries the sisngle testCd file which has no addition content to it, and the output for that is just the file name. I have also used the README file in the lecture1 directory as a parameter and the command once again just listed lecture1/README, as there is not further classified conent within a singular file.
+Explanation: I have tried two appraoches with having a file as an argument. I first tries the sisngle testCd file which has no addition content to it, and the output for that is just the file name. I have also used the README file in the lecture1 directory as a parameter and the command once again just listed lecture1/README, as there is no further classified content within a singular file.
 
 Error or No Error: It is not an error.
 
@@ -116,5 +116,12 @@ Error or No Error: It is not an error.
 ## Examples of the cat command
 
 ```
+[user@sahara ~]$ cat
+
+```
+
+Working directory: home directory
+
+Explanation:
 
 
