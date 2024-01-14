@@ -56,5 +56,7 @@ bash: cd: testCd: Not a directory
 ```
 Working Directory: home directory (/home)
 
-Explanation: For this example, I have added a new file outside of the lecture1 directory to the filesystem, call testCd. The output for enetring a testCd as a parameter was an error message that testCd is not a directory. This trial resulted into an error because the cd command onlu changes directories, not files.
+
+## Examples of the ls Command
+> ### Example 1: ls command with no arguments
 
