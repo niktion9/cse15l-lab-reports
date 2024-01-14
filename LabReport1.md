@@ -114,7 +114,7 @@ Error or No Error: It is not an error.
 
 
 ## Examples of the cat command
-> Example 1: cat command with no arguments
+> ### Example 1: cat command with no arguments
 
 ```
 [user@sahara ~]$ cat
@@ -123,9 +123,25 @@ Error or No Error: It is not an error.
 
 Working directory: home directory
 
-Explanation: A cat command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. When run with any arguments, the cat command cannot resturn any details, thus outputting a complataly blank line.
+Explanation: A cat command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. When run with any arguments, the cat command cannot resturn any details, thus outputting a completaly blank line which cannot be implemented for further use.
 
-Error or No Error: Error?
+Error or No Error: It is an error, as it ouputs a comletely blank line, with which we cannot code further. ???
+
+> ### Example 2: cat command with directory argument
+
+```
+[user@sahara ~]$ cat lecture1
+cat: lecture1: Is a directory
+[user@sahara ~]$
+```
+
+Working directory: home directory? lecture1 directory?
+
+Explanation: Since the only directory in the filesystem is lecture1, it was used as an argument, which outputted at statement indicating that lecture is directory, rather than a file. The cat command only prints the  details repsent in a mentioed file.
+
+Error or No Error: ???
+
+> ### Example 3: 
 
 
 
