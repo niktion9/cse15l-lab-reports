@@ -122,6 +122,6 @@ Error or No Error: It is not an error.
 
 Working directory: home directory
 
-Explanation:
+Explanation: A cat command is short for "concatenate" and it is respinsble for print the details of the files mentioned as arguments
 
 
