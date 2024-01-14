@@ -114,6 +114,7 @@ Error or No Error: It is not an error.
 
 
 ## Examples of the cat command
+> Example 1: cat command with no arguments
 
 ```
 [user@sahara ~]$ cat
@@ -122,6 +123,9 @@ Error or No Error: It is not an error.
 
 Working directory: home directory
 
-Explanation: A cat command is short for "concatenate" and it is respinsble for print the details of the files mentioned as arguments
+Explanation: A cat command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. When run with any arguments, the cat command cannot resturn any details, thus outputting a complataly blank line.
+
+Error or No Error: Error?
+
 
 
