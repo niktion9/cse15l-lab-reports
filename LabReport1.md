@@ -60,7 +60,7 @@ bash: cd: testCd: Not a directory
 ```
 Working Directory: home directory (/home)
 
-Explanation: For this example, I have added a new file outside of the lecture1 directory to the filesystem, call testCd. The output for enetring a testCd as a parameter was an error message that testCd is not a directory. 
+Explanation: For this example, I have added a new file in the filesystem outside of the lecture1 directory, call testCd. The output for enetring a testCd as a parameter was an error message that testCd is not a directory. 
 
 Error or No Error: This trial resulted into an error because the cd command only changes directories, not files. testCd is a file.
 
@@ -77,5 +77,12 @@ lecture1  testCd
 
 Working directory: home directory (/home)
 
-Explanation: The ls command is responsible for 
+Explanation: The ls command is responsible for listing the files and folders in a given path. Since the working directory/path was the home directory, the output of having no arguments to the ls command is a mention of lecture1 folder/directory and the testCd file.
+
+Error or No Error: It is not an error.
+
+> ### Example 2: ls command with directory argument
+
+```
+
 
