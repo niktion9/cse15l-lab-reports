@@ -62,7 +62,7 @@ Working Directory: home directory (/home)
 
 Explanation: For this example, I have added a new file in the filesystem outside of the lecture1 directory, call testCd. The output for enetring a testCd as a parameter was an error message that testCd is not a directory. 
 
-Error or No Error: This trial resulted into an error because the cd command only changes directories, not files. testCd is a file.
+Error or No Error: This trial resulted into an error because the cd command only changes directories, and testCd is a file.
 
 
 ## Examples of the ls Command
@@ -137,7 +137,7 @@ cat: lecture1: Is a directory
 
 Working directory: home directory? lecture1 directory?
 
-Explanation: Since the only directory in the filesystem is lecture1, it was used as an argument, which outputted at statement indicating that lecture is directory, rather than a file. The cat command only prints the  details repsent in a mentioed file.
+Explanation: Since the only directory in the filesystem is lecture1, it was used as an argument, which outputted at statement indicating that lecture is directory, rather than a file. The cat command only prints the  details repsent in a mentioned file.
 
 Error or No Error: ???
 
