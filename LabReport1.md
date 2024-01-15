@@ -123,9 +123,9 @@ Error or No Error: It is not an error.
 
 Working directory: home directory
 
-Explanation: A cat command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. When run with any arguments, the cat command cannot resturn any details, thus outputting a completaly blank line which cannot be implemented for further use.
+Explanation: A cat command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. When run without any arguments, the cat command cannot return any details, thus outputting a completely blank line which cannot be implemented for further use.
 
-Error or No Error: It is an error, as it ouputs a comletely blank line, with which we cannot code further. ???
+Error or No Error: It is an error, as it ouputs a completely blank line, with which we cannot code further. ???
 
 > ### Example 2: cat command with directory argument
 
@@ -137,7 +137,7 @@ cat: lecture1: Is a directory
 
 Working directory: home directory? lecture1 directory?
 
-Explanation: Since the only directory in the filesystem is lecture1, it was used as an argument, which outputted at statement indicating that lecture is directory, rather than a file. The cat command only prints the  details repsent in a mentioned file.
+Explanation: Since the only directory in the filesystem is lecture1, it was used as an argument, which outputted a statement indicating that lecture1 is a directory, rather than a file. The cat command only prints the details present in a mentioned file.
 
 Error or No Error: ???
 
@@ -159,7 +159,7 @@ java Hello messages/en-us.txt
 
 Working Directory: Home directory and lecture1 directory?
 
-Explanation: Since the cat command has the abilty to print details of *one or more* files, I have tried two approaches for this example. I have put some text is the testCd file and used that as my furst argument, which resulted in the message that was in the file. Then, I also tried the cat command with two files, one being testCd and the other being the README file in lecture1. As expected, the output was a combination of the coentent present in both teh files.
+Explanation: Since the cat command has the ability to print details of *one or more* files, I have tried two approaches for this example. I have put some text is the testCd file and used that as my first argument, which resulted in the message that was in the file. Then, I also tried the cat command with two files, one being testCd and the other being the README file in lecture1. As expected, the output was a combination of the content present in both the files.
 
 Error or No Error: It is not an error.
 
