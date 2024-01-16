@@ -135,7 +135,7 @@ cat: lecture1: Is a directory
 [user@sahara ~]$
 ```
 
-Working directory: lecture1 directory?
+Working directory: lecture1 directory
 
 Explanation: Since the only directory in the filesystem is lecture1, it was used as an argument, which outputted a statement indicating that lecture1 is a directory, rather than a file. The cat command only prints the details present in a mentioned file.
 
