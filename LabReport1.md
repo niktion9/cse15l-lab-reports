@@ -110,7 +110,7 @@ Working directory: home directory (approach 1) and lecture1 directpry (approach 
 
 Explanation: I have tried two appraoches with having a file as an argument. I first tried the single testCd file which has no additional content to it, and the output for that is just the file name. I have also used the README file in the lecture1 directory as a parameter and the command once again just listed lecture1/README, as there is no further classified content within a singular file.
 
-Error or No Error: It is not an error.
+Error or No Error: It is an error because the ls command can only work with a directory, as it's job is to list the files and other contents that reside within the directory. Since a file was given as the parameter, the ls command did not know what to do with it!
 
 
 ## Examples of the cat command
@@ -139,7 +139,7 @@ Working directory: lecture1 directory
 
 Explanation: Since the only directory in the filesystem is lecture1, it was used as an argument, which outputted a statement indicating that lecture1 is a directory, rather than a file. The cat command only prints the details present in a mentioned file.
 
-Error or No Error: Not sure?
+Error or No Error: Yes, it is an error because the cat command does not accept a directory as an argument. It will only work with files.
 
 > ### Example 3: cat command with file argument
 
