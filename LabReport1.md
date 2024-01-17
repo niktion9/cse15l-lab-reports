@@ -108,24 +108,29 @@ lecture1/README
 
 Working directory: home directory (approach 1) and lecture1 directpry (approach 2)
 
-Explanation: I have tried two appraoches with having a file as an argument. I first tried the single testCd file which has no additional content to it, and the output for that is just the file name. I have also used the README file in the lecture1 directory as a parameter and the command once again just listed lecture1/README, as there is no further classified content within a singular file.
+Explanation: I have tried two appraoches with having a file as an argument. I first tried the single testCd file which has no additional content to it, and the output for that is just the file name. I have also used the README file in the lecture1 directory as a parameter and the command once again, since the argument is a file, it just listed its name, lecture1/README.
 
-Error or No Error: It is an error because the ls command can only work with a directory, as it's job is to list the files and other contents that reside within the directory. Since a file was given as the parameter, the ls command did not know what to do with it!
+Error or No Error: It is not an error.
 
 
 ## Examples of the cat command
 > ### Example 1: cat command with no arguments
 
 ```
-[user@sahara ~]$ cat
+[user@sahara ~]$ cd lecture1
+[user@sahara ~/lecture1]$ cat
+hi
+hi
+helloo
+helloo
 
 ```
 
 Working directory: home directory
 
-Explanation: A cat command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. When run without any arguments, the cat command cannot return any details, thus outputting a completely blank line which cannot be implemented for further use.
+Explanation: A cat command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. However, run without any arguments, the cat command does not return any details, but outputs a completely blank line in which it expects an input (the inputs in this case we "hi" and "helloo") and returns what was entered.
 
-Error or No Error: It is an error, as it ouputs a completely blank line, with which we cannot code further.
+Error or No Error: It is not an error.
 
 > ### Example 2: cat command with directory argument
 
