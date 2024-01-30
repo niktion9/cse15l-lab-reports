@@ -5,23 +5,16 @@
 ```
 [user@sahara ~]$ pwd
 /home
-[user@sahara ~]$ cd
-[user@sahara ~]$
-```
-
-Below is a codeblock, where I used the pwd (print working directory) command to check what the working directory was after the running the cd command with no arguments:
-
-```
+[user@sahara ~]$ cd lecture1
+[user@sahara ~/lecture1]$ cd
 [user@sahara ~]$ pwd
 /home
-[user@sahara ~]$ cd
-[user@sahara ~]$ pwd
-/home
+[user@sahara ~]$ 
 ```
 
-Working Directory: home directory -- ```/home```
+Working Directory: before and after runnyn cd without parametrs: ```/home``` during the call of cd: ```/lecture1```
 
-Output Explanation: The cd command stands for "change directory", meaning it takes a directory as an argument and allows the user to move from the current directory to the one mentioned. Since there was no argument following the cd command, the working directory is still the home directory, thus outputting just a new empty command line and not any error message.
+Output Explanation: The cd command stands for "change directory", meaning it takes a directory as an argument and allows the user to move from the current directory to the one mentioned. Since there was no argument following the cd command, the working directory was changed from ```/lecture1``` to the default ```/home``` directory.
 
 Error or No Error: It is not an error.
 
