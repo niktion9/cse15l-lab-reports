@@ -12,7 +12,7 @@
 [user@sahara ~]$ 
 ```
 
-Working Directory: before and after runnyn cd without parametrs: ```/home``` during the call of cd: ```/lecture1```
+Working Directory: before and after running cd without parametrs: ```/home``` during the call of cd: ```/lecture1```
 
 Output Explanation: The cd command stands for "change directory", meaning it takes a directory as an argument and allows the user to move from the current directory to the one mentioned. Since there was no argument following the cd command, the working directory was changed from ```/lecture1``` to the default ```/home``` directory.
 
