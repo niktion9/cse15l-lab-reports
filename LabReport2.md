@@ -1,6 +1,5 @@
-# Lab Report 1
-## Examples of the cd Command
-> ### Example 1 (cd command with no arguments):
+# Lab Report 2
+## Part 1:
 
 log in without key
 <img width="799" alt="Screen Shot 2024-01-30 at 4 34 39 PM" src="https://github.com/niktion9/cse15l-lab-reports/assets/150311091/ae85f74d-1717-4a58-9185-5f791496c5a7">
