@@ -24,3 +24,6 @@ The second message has more words and spaces for the message parameter, and it h
 
 ### Screenshot of private key absolute path
 <img width="661" alt="Screen Shot 2024-01-30 at 5 02 13 PM" src="https://github.com/niktion9/cse15l-lab-reports/assets/150311091/175da808-1f66-4fdb-9db4-9e0dd7628777"/>
+
+## Part 3
+I have taken this course with zero prior knowledge on how to use a terminal. So, the past two weeks of instruction have been filled with new concepts and lots of learning. A highlight would be learning about cat and curl commands. Personally, I think these two commands make everyone's lives so much more easier!
