@@ -6,13 +6,13 @@
 
 
 Explantion: 
-To acheive the desired outcome, the handleRequest method takes in the URL as an argumet and it breaks down the entry into the 2 needed paramters that are to be displayed, name and the respective message. This method belongs to the handler class, which has a field called "finalMessage" which consists of the final output that will be presented on the server and it gets updated everytime there is a new entry to the url, and is returned at the end of the method. Within the handleRequest() method, String array fields like SplitRequest, stringParameter, and nameParameter are used to store and split up different component of the entry, which helps us to get down to the main phrases used for display. The final phrases are the stored in String message and String userName, which are combined into finalMessage. 
+To acheive the desired outcome, the handleRequest method takes in the URL as an argumet and it breaks down the entry into the 2 needed paramters that are to be displayed, name and the respective message. This method belongs to the handler class, which has a field called ```finalMessage``` which consists of the final output that will be presented on the server and it gets updated everytime there is a new entry to the url, and is returned at the end of the method. Within the ```handleRequest()``` method, String array fields like ```splitRequest```, ```stringParameter```, and ```nameParameter``` are used to store and split up different component of the entry, which helps us to get down to the main phrases used for display. The final phrases are the stored in String message and String userName, which are combined into ```finalMessage```. 
 
 
 ### Screenshot of Second Message:
 <img width="1224" alt="Screen Shot 2024-01-30 at 5 23 01 PM" src="https://github.com/niktion9/cse15l-lab-reports/assets/150311091/15ab52c8-9ca8-4372-ac86-e3a2f7fb4810">
 Explanation:
-The second message has more words and spaces for the message parameter, and it has to be stored along with the first message. So, the value of finalMessage changes as new parameters get added on to the next line. The same method is used and the all teh other values play the same role with the second input as well.
+The second message has more words and spaces for the message parameter, and it has to be stored along with the first message. So, the value of ```finalMessage``` changes as new parameters get added on to the next line. The same method is used and the all teh other values play the same role with the second input as well.
 
 
 ## Part 2:
