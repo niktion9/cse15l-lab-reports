@@ -52,10 +52,10 @@ Explanation:
 The bug in the code was that though it starts off by correctly reversing, this procedure is overwriting the elements of the array, so at one point of the iteration, the value in arr[i] and arr[arr.length - i - 1] will be the same bceause the original values of the elemnts needed for complete the reversing no longer exist as they were replaced towards the beginning of the iteration. This bug was fixed by creating a temporary array called ```tempArr```, into which the elements of the array parameter are coppied in reverse order. Then, with the help of another for loop, the elemnts values of ```tempArr``` are assignments to the respective indexes of ```arr```. This prevents any overwritten issues and sucessfully reverses the array. 
 
 ## Part 2 - The grep Command
-The word "grep" stands for "global search for regualr expression". Like its full form, grep command is used for search for a particlar pattern/keyword in a specific space (like a file), both of these factors are given to the grep command as arguments. Then this command list information regarding the location of what is being searched.
+The word ```grep``` stands for "global search for regualr expression". Like its full form, grep command is used for search for a particlar pattern/keyword in a specific space (like a file), both of these factors are given to the grep command as arguments. Then this command list information regarding the location of what is being searched.
 
-### grep Command Option 1: -c
-Breif explanation: -c returns the number of lines that contain the specific pattern mentioned in the location given.
+### grep Command Option 1: ```-c```
+Breif explanation: ```-c``` returns the number of lines that contain the specific pattern mentioned in the location given.
 Example 1: 
 ```
 nikitha@Nikithas-MacBook-Pro docsearch % cd technical
@@ -63,4 +63,4 @@ nikitha@Nikithas-MacBook-Pro technical % grep -c "President" government/About_LS
 5
 nikitha@Nikithas-MacBook-Pro technical %
 ```
-Explanation: I passed to the arguments "President" and "government/About_LSC/conference_highlights.txt" as the pattern to find and the location to find it in. 
+Explanation: I used ```grep -c ``` passed to the arguments "President" and "government/About_LSC/conference_highlights.txt" as the pattern to find and the location to find it in. This return 5, showing that "President" was mentioned five times. This important because since the text file is about a highlights of a conference, I can figure out how many times a leader or important candidate's name is mentioned, rather than 
