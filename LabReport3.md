@@ -25,7 +25,7 @@ public void testReverseInPlace() {
 ```
 
 > ### Symptom of the tests
-![Image](symptoms.jpg)
+<img alt = "symptoms.jpg" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/symptoms.png?raw=true">
 
 > ### Before and After code for Bug
 Before: 
