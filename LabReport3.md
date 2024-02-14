@@ -37,3 +37,14 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 After
+```
+static void reverseInPlace(int[] arr) {
+    int[] tempArr = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      tempArr[tempArr.length - i - 1] = arr[i];
+    }
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = tempArr[i];
+    }
+}
+```
