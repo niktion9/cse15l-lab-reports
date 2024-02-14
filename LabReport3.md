@@ -134,7 +134,7 @@ When more than one file is entered as an argument, the output for the ```grep -n
 Source: (https://superuser.com/questions/643788/what-does-grep-n-option-mean](https://man7.org/linux/man-pages/man1/grep.1.html)https://man7.org/linux/man-pages/man1/grep.1.html)
 
 
-### grep Command Option 3: ```-e```
+### grep Command Option 4: ```-e```
 Breif explanation: ```-e``` returns the lines of the file entered, that match multiple patterns (more than one) that are mentioned as input
 
 Example 1: 
