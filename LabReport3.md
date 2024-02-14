@@ -63,7 +63,7 @@ nikitha@Nikithas-MacBook-Pro technical % grep -c "President" government/About_LS
 5
 nikitha@Nikithas-MacBook-Pro technical %
 ```
-Explanation: I used ```grep -c ``` and passed to the arguments "President" and "government/About_LSC/conference_highlights.txt" as the pattern to find and the location to find it in. This return 5, showing that "President" was mentioned five times. This important because since the text file is about a highlights of a conference, I can figure out how many times a leader or important candidate's name is mentioned, rather than reading through the whole file. 
+Explanation: I used ```grep -c ``` and passed to the arguments "President" and "government/About_LSC/conference_highlights.txt" as the pattern to find and the location to find it in. This returned 5, showing that "President" was mentioned five times. This important because since the text file is about a highlights of a conference, I can figure out how many times a leader or important candidate's name is mentioned, rather than reading through the whole file. In a way it given a numerical summary about how much important information is there!
 
 Example 2:
 ```
@@ -72,3 +72,4 @@ government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:5
 government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:10
 nikitha@Nikithas-MacBook-Pro technical %
 ```
+Explanation: I used ```grep -c ``` and passed to the arguments "lawyer" and two files this time, which are "government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt" and "government/About_LSC/LegalServCorp_v_VelazquezDissent.txt" and as the pattern to find and the location to find it in. This returned 5, showing that "lawyer" was mentioned five times in the opinion file, and 10, showing that "lawyer" appeared ten times in dissent file. This is important because it once again saves time and makes reading multiple (more than one arguments can be given) long files more efficent by highlight how many key points including a lawyer are there.
