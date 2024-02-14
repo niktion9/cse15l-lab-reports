@@ -22,4 +22,8 @@ public void testReverseInPlace() {
     int[] input2 = {1, 1, 2, 1, 1};
     assertArrayEquals(new int[]{ 1, 1, 2, 1, 1 }, input1);
 }
-``` 
+```
+
+> ### Symptom of the tests
+> <img width="867" alt="Screen Shot 2024-01-30 at 5 23 55 PM" src="[https://github.com/niktion9/cse15l-lab-reports/assets/150311091/d4129384-f24f-46c4-bb0d-4aba38ad177f](https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-18%20at%202.16.18%20AM.png)https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-01-18%20at%202.16.18%20AM.png"/>
+
