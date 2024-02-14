@@ -108,9 +108,33 @@ nikitha@Nikithas-MacBook-Pro technical %
 ```
 Explanation: From the previous example, I realized how the file entered at only a few of many so I used ```grep -l ``` in another, samarter way by including ```*```
 This way, I am able to search all of the 9/11 readings and find which files specifically have the date in them.
+Source: (https://www.geeksforgeeks.org/grep-command-in-unixlinux/) 
+
+### grep Command Option 3: ```-n```
+Breif explanation: ```-n``` returns the line number and the line of the entered file, in which the given pattern in found.
+
+Example 1: 
+```
+nikitha@Nikithas-MacBook-Pro technical % grep -n "Bill Clinton" 911report/chapter-11.txt
+153:            Whatever the weaknesses in the CIA's portraiture, both Presidents Bill Clinton and
+```
+Explanation: ```grep -n```, with the given paramters return the line number and the whole line in the Chapter 11 text file where "Bill Clinton" was mentioned. This is helpful because it does not just give me the line number, but also the line number, so that I may not even need to nagivate to tej file to gain a little context about Bill Clinton.
+
+Example 2:
+```
+nikitha@Nikithas-MacBook-Pro technical % grep -n "Bill Clinton" 911report/chapter-11.txt 911report/chapter-3.txt 
+911report/chapter-11.txt:153:            Whatever the weaknesses in the CIA's portraiture, both Presidents Bill Clinton and
+911report/chapter-3.txt:22:            President Bill Clinton ordered his National Security Council to coordinate the
+911report/chapter-3.txt:1558:            President Bill Clinton's counterterrorism Presidential Decision Directives in 1995
+nikitha@Nikithas-MacBook-Pro technical %
+```
+Explanation:
+When more than one file is entered as an argument, the output for the ```grep -n``` command mentioned the respective file name right before the line number. This is helpful as it allows you to search multiple files without the confusion regarding with line belongs to which file
+
+Source: (https://superuser.com/questions/643788/what-does-grep-n-option-mean](https://man7.org/linux/man-pages/man1/grep.1.html)https://man7.org/linux/man-pages/man1/grep.1.html)
 
 
-### grep Command Option 3: ```-l```
-Breif explanation: ```-l``` returns the all the filenames out of the onces entered, which contain the specific pattern that is also mentioned as an argument.
+### grep Command Option 3: ```-n```
+Breif explanation: ```-n``` returns the line number and the line of the entered file, in which the given pattern in found.
 
 Example 1: 
