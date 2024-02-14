@@ -1,12 +1,15 @@
 # Lab Report 2
 
 ## Part 1:
+### Code for Server:
+<img alt = "Lab2code.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Lab2code.png?raw=true">
+
 ### Screenshot of First Message:
 <img width="867" alt="Screen Shot 2024-01-30 at 5 23 55 PM" src="https://github.com/niktion9/cse15l-lab-reports/assets/150311091/d4129384-f24f-46c4-bb0d-4aba38ad177f"/>
 
 
 Explantion: 
-To acheive the desired outcome, the handleRequest method takes in the URL as an argumet and it breaks down the entry into the 2 needed paramters that are to be displayed, name and the respective message. This method belongs to the handler class, which has a field called ```finalMessage``` which consists of the final output that will be presented on the server and it gets updated everytime there is a new entry to the url, and is returned at the end of the method. Within the ```handleRequest()``` method, String array fields like ```splitRequest```, ```stringParameter```, and ```nameParameter``` are used to store and split up different component of the entry, which helps us to get down to the main phrases used for display. The final phrases are the stored in String message and String userName, which are combined into ```finalMessage```. 
+To acheive the desired outcome, the ```handleRequest``` method takes in the URL as an argumet and it breaks down the entry into the 2 needed parameters that are to be displayed, name and the respective message. This method belongs to the ```handler``` class, which has a field called ```finalMessage``` which consists of the final output that will be presented on the server and it gets updated everytime there is a new entry to the url, and is returned at the end of the method. Within the ```handleRequest()``` method, String array fields like ```splitRequest```, ```stringParameter```, and ```nameParameter``` are used to store and split up different component of the entry, which helps us to get down to the main phrases used for display. The final phrases are the stored in ```String message``` and ```String userName```, which are combined into ```finalMessage```. 
 
 
 ### Screenshot of Second Message:
