@@ -63,4 +63,12 @@ nikitha@Nikithas-MacBook-Pro technical % grep -c "President" government/About_LS
 5
 nikitha@Nikithas-MacBook-Pro technical %
 ```
-Explanation: I used ```grep -c ``` passed to the arguments "President" and "government/About_LSC/conference_highlights.txt" as the pattern to find and the location to find it in. This return 5, showing that "President" was mentioned five times. This important because since the text file is about a highlights of a conference, I can figure out how many times a leader or important candidate's name is mentioned, rather than 
+Explanation: I used ```grep -c ``` and passed to the arguments "President" and "government/About_LSC/conference_highlights.txt" as the pattern to find and the location to find it in. This return 5, showing that "President" was mentioned five times. This important because since the text file is about a highlights of a conference, I can figure out how many times a leader or important candidate's name is mentioned, rather than reading through the whole file. 
+
+Example 2:
+```
+nikitha@Nikithas-MacBook-Pro technical % grep -c "lawyer" government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt government/About_LSC/LegalServCorp_v_VelazquezDissent.txt                        
+government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:5
+government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:10
+nikitha@Nikithas-MacBook-Pro technical %
+```
