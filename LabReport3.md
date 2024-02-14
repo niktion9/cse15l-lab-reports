@@ -48,3 +48,8 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
+Explanation:
+The bug in the code was that though it starts off by correctly reversing, this procedure is overwriting the elements of the array, so at one point of the iteration, the value in arr[i] and arr[arr.length - i - 1] will be the same bceause the original values of the elemnts needed for complete the reversing no longer exist as they were replaced towards the beginning of the iteration. This bug was fixed by creating a temporary array called ```tempArr```, into which the elements of the array parameter are coppied in reverse order. Then, with the help of another for loop, the elemnts values of ```tempArr``` are assignments to the respective indexes of ```arr```. This prevents any overwritten issues and sucessfully reverses the array. 
+
+## Part 2 - Researching Commands
+
