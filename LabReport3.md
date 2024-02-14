@@ -76,8 +76,41 @@ Explanation: I used ```grep -c ``` and passed to the arguments "lawyer" and two 
 Source: (https://www.geeksforgeeks.org/grep-command-in-unixlinux/) 
 
 ### grep Command Option 2: ```-l```
-Breif explanation: ```-l``` returns the all the filenames that contain the specific pattern mentioned as an argument.
+Breif explanation: ```-l``` returns the all the filenames out of the onces entered, which contain the specific pattern that is also mentioned as an argument.
+
 Example 1: 
+```
+nikitha@Nikithas-MacBook-Pro technical % grep -l "September 11" 911report/chapter-1.txt 911report/chapter-2.txt 911report/chapter-3.txt
+911report/chapter-1.txt
+911report/chapter-3.txt
+nikitha@Nikithas-MacBook-Pro technical %
+```
+Explanation: I used ```grep -l ``` where I search for "September 11" in three different files. This command returns the files (out of the ones mentioned) that actually contain the date. This is helpful because now the user knows which file is look at rather than searching through all the dozen of them.
+
+Example 2:
+```
+nikitha@Nikithas-MacBook-Pro technical % grep -l "September 11" 911report/*                                                            
+911report/chapter-1.txt
+911report/chapter-10.txt
+911report/chapter-11.txt
+911report/chapter-12.txt
+911report/chapter-13.2.txt
+911report/chapter-13.3.txt
+911report/chapter-13.4.txt
+911report/chapter-13.5.txt
+911report/chapter-3.txt
+911report/chapter-5.txt
+911report/chapter-7.txt
+911report/chapter-8.txt
+911report/chapter-9.txt
+911report/preface.txt
+nikitha@Nikithas-MacBook-Pro technical %
+```
+Explanation: From the previous example, I realized how the file entered at only a few of many so I used ```grep -l ``` in another, samarter way by including ```*```
+This way, I am able to search all of the 9/11 readings and find which files specifically have the date in them.
 
 
+### grep Command Option 3: ```-l```
+Breif explanation: ```-l``` returns the all the filenames out of the onces entered, which contain the specific pattern that is also mentioned as an argument.
 
+Example 1: 
