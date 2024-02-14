@@ -73,3 +73,11 @@ government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:10
 nikitha@Nikithas-MacBook-Pro technical %
 ```
 Explanation: I used ```grep -c ``` and passed to the arguments "lawyer" and two files this time, which are "government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt" and "government/About_LSC/LegalServCorp_v_VelazquezDissent.txt" and as the pattern to find and the location to find it in. This returned 5, showing that "lawyer" was mentioned five times in the opinion file, and 10, showing that "lawyer" appeared ten times in dissent file. This is important because it once again saves time and makes reading multiple (more than one arguments can be given) long files more efficent by highlight how many key points including a lawyer are there.
+Source: (https://www.geeksforgeeks.org/grep-command-in-unixlinux/) 
+
+### grep Command Option 2: ```-l```
+Breif explanation: ```-l``` returns the all the filenames that contain the specific pattern mentioned as an argument.
+Example 1: 
+
+
+
