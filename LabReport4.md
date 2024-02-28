@@ -34,6 +34,9 @@ I used the ```<tab>``` which filled in the letters for ```test.sh``` which saved
 ## Step7
 <img alt = "Screen Shot 2024-02-27 at 11.07.29 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2011.07.29%20PM.png?raw=true">
 
-Keys pressed: ```<enter>```
+Keys pressed: ```<enter>``` and ```<tab>```
 
-I used the ```cd``` command to change directory to lab7, pressed ```<enter>``` , and used the ```ls``` command to make sure ```test.sh``` file was part of the ```lab7``` directory in list it produced after using the ``` <enter> ``` key
+I used the ```<tab>``` which filled in the letters for ```ListExamples.java``` which saved a lot of time. Then I used ```<enter>``` to excecute the ```vim``` command in order to adress the error in code of the ```ListExamples.java``` file, and edit it in the terminal itself.
+
+
+<img alt = "Screen Shot 2024-02-27 at 10.07.49 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2010.07.49%20PM.png?raw=true">
