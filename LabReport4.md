@@ -40,3 +40,8 @@ I used the ```<tab>``` which filled in the letters for ```ListExamples.java``` w
 
 
 <img alt = "Screen Shot 2024-02-27 at 10.07.49 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2010.07.49%20PM.png?raw=true">
+
+Keys pressed: ```<x>```, ```i```, ```2```, ```esc```, ```<:>, <w>, <q>```, ```<enter>```
+
+The ```vim``` command allowed us to acess the code right away, in which we can edit using more vim techniques. I used the ```<x>``` at the location of second appreance of ```index1```, precisely at the ```1```. This helped me get rid of the ```1```. The used ```i``` to initiate vim's insert feature. This allowes me to put ```2``` and make sure the correct field name is ```index2```. After this edit was made, the ```esc``` key was used to exit the text of the code and the ```:wp``` command along with ```<enter>``` allows us to save and exit the file. 
+
