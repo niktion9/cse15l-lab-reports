@@ -23,7 +23,7 @@ Keys pressed: ```<enter>```
 
 I used the ```cd``` command to change directory to lab7, pressed ```<enter>``` , and used the ```ls``` command to make sure ```test.sh``` file was part of the ```lab7``` directory in list it produced after using the ``` <enter> ``` key
 
-
+###
 <img alt = "Screen Shot 2024-02-27 at 10.53.33 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2010.53.33%20PM.png?raw=true">
 
 Keys pressed: ```<enter>``` and ```<tab>```
@@ -38,10 +38,38 @@ Keys pressed: ```<enter>``` and ```<tab>```
 
 I used the ```<tab>``` which filled in the letters for ```ListExamples.java``` which saved a lot of time. Then I used ```<enter>``` to excecute the ```vim``` command in order to adress the error in code of the ```ListExamples.java``` file, and edit it in the terminal itself.
 
+###
 
 <img alt = "Screen Shot 2024-02-27 at 10.07.49 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2010.07.49%20PM.png?raw=true">
 
 Keys pressed: ```<x>```, ```i```, ```2```, ```esc```, ```<:>, <w>, <q>```, ```<enter>```
 
 The ```vim``` command allowed us to acess the code right away, in which we can edit using more vim techniques. I used the ```<x>``` at the location of second appreance of ```index1```, precisely at the ```1```. This helped me get rid of the ```1```. The used ```i``` to initiate vim's insert feature. This allowes me to put ```2``` and make sure the correct field name is ```index2```. After this edit was made, the ```esc``` key was used to exit the text of the code and the ```:wp``` command along with ```<enter>``` allows us to save and exit the file. 
+
+
+## Step8
+<img alt = "Screen Shot 2024-02-27 at 11.29.13 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2011.29.13%20PM.png?raw=true">
+
+Keys pressed: ```<enter>``` and ```<up>```
+
+I used the ```<up>``` to use the same ```test.sh``` line and saved a lot of time. Then I used ```<enter>``` to excecute bash command to examine the ```test.sh``` file and show that all test cases have passed after the quick edit in the ```ListExamples.java``` file.
+
+
+## Step9
+<img alt = "Screen Shot 2024-02-27 at 11.36.59 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2011.36.59%20PM.png?raw=true">
+
+Keys pressed: ```<enter>```
+
+I used the the commit command and the ```<enter>``` key to finalize and verify the change made to code file. As shown, the follwoing tect illusrarted how many changes were made and who the commiter is.
+
+###
+
+<img alt = "Screen Shot 2024-02-27 at 11.43.58 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2011.43.58%20PM.png?raw=true">
+
+Keys pressed: ```<enter>```
+
+I used the push command and the ```<enter>``` key to transfer the change back to the forked repository and the follwing text shows that it has sucessfully done its job!
+
+
+
 
