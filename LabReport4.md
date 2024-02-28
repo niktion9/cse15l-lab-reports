@@ -12,10 +12,13 @@ I accidentally typed “.net” instead of ```.edu``` at the end of the ```$ ssh
 <img alt = "Screen Shot 2024-02-27 at 10.36.21 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2010.36.21%20PM.png?raw=true">
 
 Keys pressed: ```<Ctrl-V>```, ```<enter>``` 
+
 I used ```<Ctrl-V>``` to copy-paste the ssh git url. I then used the  ```<enter>```  key to execute git clone so the content in the forked repository can now be referred to and used.
 
 
 ## Step6
 <img alt = "Screen Shot 2024-02-27 at 9.53.39 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%209.53.39%20PM.png?raw=true">
-Keys pressed: ```<enter>``` 
-I used the ```cd``` command to change directory to lab7, pressed ```<enter>``` , and used the ```ls``` command to make sure ```test.sh``` file was part of the lab 7 directory in list it produced after using the ```<enter>``` key
+
+Keys pressed: ```<enter>```
+
+I used the ```cd``` command to change directory to lab7, pressed ```<enter>``` , and used the ```ls``` command to make sure ```test.sh``` file was part of the ```lab7``` directory in list it produced after using the ``` <enter> ``` key
