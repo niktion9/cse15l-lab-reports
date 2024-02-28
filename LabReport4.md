@@ -22,3 +22,10 @@ I used ```<Ctrl-V>``` to copy-paste the ssh git url. I then used the  ```<enter>
 Keys pressed: ```<enter>```
 
 I used the ```cd``` command to change directory to lab7, pressed ```<enter>``` , and used the ```ls``` command to make sure ```test.sh``` file was part of the ```lab7``` directory in list it produced after using the ``` <enter> ``` key
+
+
+<img alt = "Screen Shot 2024-02-27 at 10.53.33 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2010.53.33%20PM.png?raw=true">
+
+Keys pressed: ```<enter>``` and ```<tab>```
+
+I used the ```<tab>``` which filled in the letters for ```test.sh``` which saved some time. Then I used ```<enter>``` to excecute bash command to examine the ```test.sh``` file and retunr the failed test cases.
