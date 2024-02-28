@@ -11,7 +11,7 @@
 /home
 [user@sahara ~]$ 
 ```
-<img alt = "step1Lab3.png" src = "[https://github.com/niktion9/cse15l-lab-reports/blob/main/symptoms.png?raw=true](https://github.com/niktion9/cse15l-lab-reports/blob/main/step1Lab3.png?raw=true)">
+<img alt = "step1Lab3.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/step1Lab3.png?raw=true">
 
 Working Directory: before and after running cd without parametrs: ```/home``` during the call of cd: ```/lecture1```
 
