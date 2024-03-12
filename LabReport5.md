@@ -11,4 +11,7 @@ Hello, thank you for reaching out. When reading the error message, it can be see
 Try looking underneath the first error error (which is "1) testMerge1(ListExamplesTests)") and notice how a line specifies "ListExamples.merge(ListExamples.java:33)"?
 I suggest using ```vim``` to access the file content for editing and look into what needs to be fixed. Good luck!
 
-
+### Student's post:
+It worked! I used ```vim``` to go into the ```listExamples.java``` file and navigated to line number 33 and traced the code around it. I noticed that after line 33, index2 needs to be update for the correct result. So since I am in ```vim``` I used ```i``` to insert ```index2+=1```. Then I clicked ```esc``` and enter ```:wp``` to save the edit and exit the file. Like shown below 
+![image](https://github.com/niktion9/cse15l-lab-reports/assets/150311091/5fb9ce85-b3d4-4241-ab82-1ac2f3505b20)
+Then I ran ```bash test.sh``` to check in the first error was solved. When entered, it was indeed solved and I was left with my last error.
