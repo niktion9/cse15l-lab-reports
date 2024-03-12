@@ -30,8 +30,6 @@ I used the same appraoch as my pervious error and I figured out that the big was
 ![image](https://github.com/niktion9/cse15l-lab-reports/assets/150311091/33774312-23dc-4484-9886-70574e23d00a)
 
 
-Then, I once again ran the command ```bash test.sh``` and this time, my bugs are all solves and it is safe to say that my code has been debugged! Thank you!
-
-![image](https://github.com/niktion9/cse15l-lab-reports/assets/150311091/cd34e403-0b5e-4cad-aeb7-18f5495981ec)
-
+## Part 2:
+While the auto grader was the coolest project we did in lab, the most memorable and fun lab expreice for me would be during Week 2 and Week 3 when ww were working on building local servers. URLs are something we use every single day and actually learning about them and manipulating them was just fascnination. With so much new vocabular and commands, it was also one of the first times I interacted with all of my group and the TA. I remember happy like a kid when the server finally worked and I was able to update the number how many ver times wanted. While I think wiggling my legs happily in the chair was silly, I also think it is justifiable because it is rear that my code work within the first few tries. I also have a feeling that I will be building more servers in the future, and I will never forget how ,much I learned about it in this class.
 
