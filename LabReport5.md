@@ -3,14 +3,16 @@
 ## Part 1:
 ### Student's post:
 Hello, I have having trouble with Lab 7. I am trying to run the test file, it is showing multiple errors
-and I am where these error are coming from and how to address them.
+and I am not sure where these error are coming from and how to address them.
 
 ![image](https://github.com/niktion9/cse15l-lab-reports/assets/150311091/69bad620-a3e9-4ebf-891f-f5dd58458ea7)
 
 ### TA's response:
-Hello, thank you for reaching out. When reading the error message, it can be seen that there 2 error. Let's solve them one by one.
-Try looking underneath the first error error (which is "1) testMerge1(ListExamplesTests)") and notice how a line specifies "ListExamples.merge(ListExamples.java:33)"?
-I suggest using ```vim``` to access the file content for editing and look into what needs to be fixed. Good luck!
+Hello, thank you for reaching out!
+When reading the error message, it can be seen that there 2 errors. Let's solve them one by one.
+Start by looking underneath the first error error (which is ```1) testMerge1(ListExamplesTests)```). Notice how a line specifies "ListExamples.merge(ListExamples.java:33)"? This is a great indication of where the error is coming from. I suggest going into the file and read he code at line 33 and aroud it to get an idea of where and what the actual bug is.
+You can try using ```vim``` to access the file content and even for editing once you find the bug. 
+Trying running the test file again, and repeat this process for debugging the second error as well. Please feel free to let me know if you have any questions or would like further guidance. Good luck!
 
 ### Student's post:
 It worked! I used ```vim``` to go into the ```listExamples.java``` file and navigated to line number 33 and traced the code around it. I noticed that after line 33, index2 needs to be updated for the correct result. Because that was missing, and since I am in ```vim```, I used ```i``` to insert ```index2+=1```. Then I clicked ```esc``` and enter ```:wp``` to save the edit and exit the file. Like shown below 
