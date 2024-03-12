@@ -1,4 +1,4 @@
-# Lab Report 4
+# Lab Report 5
 
 ## Part 1:
 ### Student's post:
@@ -8,4 +8,7 @@ and I am where these error are coming from and how to address them.
 
 ### TA's response:
 Hello, thank you for reaching out. When reading the error message, it can be seen that there 2 error. Let's solve them one by one.
-Try looking underneath 
+Try looking underneath the first error error (which is "1) testMerge1(ListExamplesTests)") and notice how a line specifies "ListExamples.merge(ListExamples.java:33)"?
+I suggest using ```vim``` to access the file content for editing and look into what needs to be fixed. Good luck!
+
+
