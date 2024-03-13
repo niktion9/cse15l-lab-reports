@@ -26,9 +26,9 @@ I used the ```cd``` command to change directory to lab7, pressed ```<enter>``` ,
 ###
 <img alt = "Screen Shot 2024-02-27 at 10.53.33 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2010.53.33%20PM.png?raw=true">
 
-Keys pressed: ```<enter>``` and ```<tab>```
+Keys pressed: ```bash te``` and ```<tab>``` (to fill in ```test.sh``` after ```bash``` command), then ```<enter>```
 
-I used the ```<tab>``` which filled in the letters for ```test.sh``` which saved some time. Then I used ```<enter>``` to excecute bash command to examine the ```test.sh``` file and return the failed test cases.
+I typed  ```bash``` to initiate the call of the bash file ```test.sh```. I used the ```<tab>``` which filled in the letters for ```test.sh``` which saved some time. Then I used ```<enter>``` to excecute bash command to examine the ```test.sh``` file and return the failed test cases.
 
 
 ## Step7
