@@ -3,7 +3,7 @@
 
 <img alt = "step1Lab3.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/step1Lab3.png?raw=true">
 
-Keys pressed: ```<Ctrl-K>```, ```<enter>``` 
+Keys pressed: I pressed ```ssh nmaderamitla@ieng6-202.ucsd.net```, then ```<Ctrl-K>```, then```ssh nmaderamitla@ieng6-202.ucsd.net```, and finally```<enter>``` 
 
 I accidentally typed “.net” instead of ```.edu``` at the end of the ```$ ssh nmaderamitla@ieng6-202.ucsd.edu``` so I tried out ```<Ctrl-K>``` and I was quickly able to delete .net and replaced it correctly. Then I pressed enter so that the ssh command could be executed for the ```ieng6``` network to be connected and accessed by.
 
@@ -11,15 +11,15 @@ I accidentally typed “.net” instead of ```.edu``` at the end of the ```$ ssh
 ## Step5
 <img alt = "Screen Shot 2024-02-27 at 10.36.21 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2010.36.21%20PM.png?raw=true">
 
-Keys pressed: ```<Ctrl-V>```, ```<enter>``` 
+Keys pressed: I pressed ```git clone```, ```<Ctrl-V>``` (copy pasted the ssh git repo), ```<enter>``` 
 
-I used ```<Ctrl-V>``` to copy-paste the ssh git url. I then used the  ```<enter>```  key to execute git clone so the content in the forked repository can now be referred to and used.
+I typed ```git clone``` to initate a git repo that needs to be cloned and used. I used ```<Ctrl-V>``` to copy-paste the ssh git url. I then used the  ```<enter>```  key to execute git clone so the content in the forked repository can now be referred to and used.
 
 
 ## Step6
 <img alt = "Screen Shot 2024-02-27 at 9.53.39 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%209.53.39%20PM.png?raw=true">
 
-Keys pressed: ```<enter>```
+Keys pressed: ```cd lab7```, ```<enter>```
 
 I used the ```cd``` command to change directory to lab7, pressed ```<enter>``` , and used the ```ls``` command to make sure ```test.sh``` file was part of the ```lab7``` directory in list it produced after using the ``` <enter> ``` key
 
