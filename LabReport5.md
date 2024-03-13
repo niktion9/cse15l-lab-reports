@@ -10,12 +10,12 @@ and I am not sure where these error are coming from and how to address them.
 ### TA's response:
 Hello, thank you for reaching out! <br>
 When reading the error message, it can be seen that there 2 errors. Let's solve them one by one.
-Something to think about is how the first line of the error says ```java.lang.OutOfMemoryError: Java heap space```. Since our code is relatively short and simple, the only time we would run out of heap space is if there is error in the iteration of a loop, which is cause the data to take up all the heap space. With that in mind, start by looking underneath the first error error (which is ```1) testMerge1(ListExamplesTests)```). Notice how a line specifies "ListExamples.merge(ListExamples.java:33)"? This is a great indication of where the error is coming from. I suggest going into the file and read he code at line 33 and around it to get an idea of where and what the actual bug is.
+Something to think about is how the first line of the error says ```java.lang.OutOfMemoryError: Java heap space```. Since our code is relatively short and simple, the only time we would run out of heap space is if there is an error in the iteration of a loop, which is causing our data to take up all the heap space. With that in mind, start by looking underneath the first error error (which is ```1) testMerge1(ListExamplesTests)```). Notice how a line specifies "ListExamples.merge(ListExamples.java:33)"? This is a great indication of where the error is coming from. I suggest going into the file and read the code at line 33 and around it to get an idea of where and what the actual bug is.
 You can try practicing using ```vim``` to access the file content and even for editing once you find the bug. 
 Trying running the test file again, and repeat this process for debugging the second error as well. Please feel free to let me know if you have any questions or would like further guidance. Good luck!
 
 ### Student's post:
-It worked! I used ```vim``` to go into the ```listExamples.java``` file and navigated to line number 33 and traced the code around it. I noticed that after line 33, index2 needs to be updated for the correct result. Because that was missing, and since I am in ```vim```, I used ```i``` to insert ```index2+=1```. Then I clicked ```esc``` and enter ```:wp``` to save the edit and exit the file. Like shown below 
+It worked! I used ```vim``` to go into the ```listExamples.java``` file and navigated to line number 33 and traced the code around it. I noticed that after line 33, underneath the while loop, index2 needs to be updated for the correct result. Because that was missing, and since I am in ```vim```, I used ```i``` to insert ```index2+=1```. Then I clicked ```esc``` and enter ```:wp``` to save the edit and exit the file. Like shown below 
 
 ![image](https://github.com/niktion9/cse15l-lab-reports/assets/150311091/5fb9ce85-b3d4-4241-ab82-1ac2f3505b20)
 
