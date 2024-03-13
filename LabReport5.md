@@ -8,10 +8,10 @@ and I am not sure where these error are coming from and how to address them.
 ![image](https://github.com/niktion9/cse15l-lab-reports/assets/150311091/69bad620-a3e9-4ebf-891f-f5dd58458ea7)
 
 ### TA's response:
-Hello, thank you for reaching out!
+Hello, thank you for reaching out! <br>
 When reading the error message, it can be seen that there 2 errors. Let's solve them one by one.
-Start by looking underneath the first error error (which is ```1) testMerge1(ListExamplesTests)```). Notice how a line specifies "ListExamples.merge(ListExamples.java:33)"? This is a great indication of where the error is coming from. I suggest going into the file and read he code at line 33 and aroud it to get an idea of where and what the actual bug is.
-You can try using ```vim``` to access the file content and even for editing once you find the bug. 
+Something to think about is how the first line of the error says ```java.lang.OutOfMemoryError: Java heap space```. Since our code is relatively short and simple, the only time we would run out of heap space is if there is error in the iteration of a loop, which is cause the data to take up all the heap space. With that in mind, start by looking underneath the first error error (which is ```1) testMerge1(ListExamplesTests)```). Notice how a line specifies "ListExamples.merge(ListExamples.java:33)"? This is a great indication of where the error is coming from. I suggest going into the file and read he code at line 33 and around it to get an idea of where and what the actual bug is.
+You can try practicing using ```vim``` to access the file content and even for editing once you find the bug. 
 Trying running the test file again, and repeat this process for debugging the second error as well. Please feel free to let me know if you have any questions or would like further guidance. Good luck!
 
 ### Student's post:
