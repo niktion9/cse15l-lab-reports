@@ -19,7 +19,7 @@ I typed ```git clone``` to initate a git repo that needs to be cloned and used. 
 ## Step6
 <img alt = "Screen Shot 2024-02-27 at 9.53.39 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%209.53.39%20PM.png?raw=true">
 
-Keys pressed: ```cd lab7```, ```<enter>```
+Keys pressed: ```cd lab7```, ```<enter>```, ```ls```, ```<enter>```
 
 I used the ```cd``` command to change directory to lab7, pressed ```<enter>``` , and used the ```ls``` command to make sure ```test.sh``` file was part of the ```lab7``` directory in list it produced after using the ``` <enter> ``` key
 
