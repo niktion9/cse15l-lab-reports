@@ -3,53 +3,45 @@
 > ### Example 1 (cd command with no arguments):
 
 ```
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ cd
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ 
+Nikithas-MacBook-Pro:lecture1 nikitha$ pwd
+/Users/nikitha/lecture1
+Nikithas-MacBook-Pro:lecture1 nikitha$ cd
+Nikithas-MacBook-Pro:~ nikitha$ pwd
+/Users/nikitha
 ```
 
-Working Directory: before and after running cd without parametrs: ```/home``` during the call of cd: ```/lecture1```
+Working Directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1```
 
-Output Explanation: The cd command stands for "change directory", meaning it takes a directory as an argument and allows the user to move from the current directory to the one mentioned. Since there was no argument following the cd command, the working directory was changed from ```/lecture1``` to the default ```/home``` directory.
+Output Explanation: The cd command stands for "change directory", meaning it takes a directory as an argument and allows the user to move from the current directory to the one mentioned. Since there was no argument following the cd command, the working directory was changed from ```lecture1``` to the default ```nikitha``` directory (absolute path: ```/Users/nikitha```). I used to the ```pwd``` command to attain the information on the working directory.
 
 Error or No Error: It is not an error.
 
 > ### Example 2 (cd command with directory argument):
 
 ```
-[user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$
+Nikithas-MacBook-Pro:~ nikitha$ pwd
+/Users/nikitha
+Nikithas-MacBook-Pro:~ nikitha$ cd lecture1/
+Nikithas-MacBook-Pro:lecture1 nikitha$ pwd
+/Users/nikitha/lecture1
+Nikithas-MacBook-Pro:lecture1 nikitha$ 
 ```
 
-Below is a codeblock, where I used the pwd (print working directory) command to check what the working directory was after the running the cd command with a directory as an argument:
+Working Directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha```
 
-```
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ pwd
-/home/lecture1
-[user@sahara ~/lecture1]$
-```
-
-Working Directory: ```/lecture1``` directory
-
-Explantion: In the filesystem, the only directory present is lecture1, which is home to a few files and the messages directory (it contains messages of "hello world" in different languages). This time, lecture1 is mentioned as the argument for the cd command, which resulted in a new terminal line with the context "~/lecture1" before the dollar sign, indicating that we are sucessfully transitioned into the lecture1 directory, causing no errors.
+Explantion: In the filesystem, the directory present is ```lecture1```, which is home to a few files and the ```messages``` directory (which contain messages of "hello world" in different languages). This time, ```lecture1/``` is mentioned as the argument for the cd command, which changed the working directory to ```lecture1``` (absolute path: ```/Users/nikitha/lecture1```). I used to the ```pwd``` command to attain the information on the working directory.
 
 Error or No Error: It is not an error.
 
 > ### Example 3 (cd command with file argument):
 
 ```
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ cd testCd
-bash: cd: testCd: Not a directory
-[user@sahara ~]
+Nikithas-MacBook-Pro:lecture1 nikitha$ cd messages/
+Nikithas-MacBook-Pro:messages nikitha$ pwd
+/Users/nikitha/lecture1/messages
+Nikithas-MacBook-Pro:messages nikitha$ cd fi.txt
+bash: cd: fi.txt: Not a directory
+Nikithas-MacBook-Pro:messages nikitha$ 
 ```
 Working Directory: ```/home``` directory
 
