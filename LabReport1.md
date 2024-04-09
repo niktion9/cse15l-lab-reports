@@ -45,55 +45,56 @@ Nikithas-MacBook-Pro:messages nikitha$
 ```
 Working Directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1/messages```
 
-Explanation: For this example, I have added a new file in the filesystem outside of the lecture1 directory, call testCd. The output for entering a testCd as a parameter was an error message that indicated that testCd is not a directory. 
+Explanation: For this example, I have decided to use the languages files existing in the ```messages``` directory as the file parameter. So I first made sure that I am in the correct directory, for which I ran the command ```cd messages/```. The output of entering a the ```fi.txt``` file (the Finnish "hello file" I created during lab) as a parameter was an error message that indicated that ```fi.txt``` is not a directory. 
 
-Error or No Error: This trial resulted into an error because the cd command only changes directories, and testCd is a file.
+Error or No Error: This trial resulted into an error because the cd command only changes directories, and ```fi.txt``` is a file.
 
 
 ## Examples of the ls Command
 > ### Example 1: ls command with no arguments
 
 ```
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ ls
-lecture1  testCd
-[user@sahara ~]$ 
+Nikithas-MacBook-Pro:lecture1 nikitha$ pwd
+/Users/nikitha/lecture1
+Nikithas-MacBook-Pro:lecture1 nikitha$ ls
+Hello.class     Hello.java      README          messages
+Nikithas-MacBook-Pro:lecture1 nikitha$ 
 ```
 
-Working directory: ```/home``` directory
+Working directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1```
 
-Explanation: The ls command is responsible for listing the files and folders in a given path. Since the working directory/path was the home directory, the output of having no arguments to the ls command is a mention of lecture1 folder/directory and the testCd file, in other words, the contents of the home directory.
+Explanation: The ls command is responsible for listing the files and folders in a given path. Since the working directory, according to the ```pwd``` command, was ```/Users/nikitha/lecture1```, the output of having no arguments to the ls command is a mention of all the content, that is files and directories (```Hello.class     Hello.java      README       messages```) in ```lecture1```.
 
 Error or No Error: It is not an error.
 
 > ### Example 2: ls command with directory argument
 
 ```
-[user@sahara ~]$ ls lecture1/
-Hello.class  Hello.java  messages  README
-[user@sahara ~]$
+Nikithas-MacBook-Pro:lecture1 nikitha$ pwd
+/Users/nikitha/lecture1
+Nikithas-MacBook-Pro:lecture1 nikitha$ ls messages
+en-us.txt       es-mx.txt       fi.txt          zh-cn.txt
+Nikithas-MacBook-Pro:lecture1 nikitha$ 
 ```
 
-Working directory: ```/lecture1``` directory
+Working directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1```
 
-Explanation: With the lecture1/ directory as the specified argument, the ls command listed the files and folder that lecture1 consisted of in the filesystem.
+Explanation: Since ```messages``` was a directory within the working directory ```lecture1```, I used it as a parameter for this example. With the ```ls messages``` command,  the output was the list of the language files consisted within the ```messages``` directory (```en-us.txt       es-mx.txt       fi.txt          zh-cn.txt```).
 
 Error or No Error: It is not an error.
 
 > ### Example 3: ls command with file argument
 
 ```
-[user@sahara ~]$ ls testCd
-testCd
-[user@sahara ~]$ ls lecture1/README
-lecture1/README
-[user@sahara ~]$
+Nikithas-MacBook-Pro:lecture1 nikitha$ pwd
+/Users/nikitha/lecture1
+Nikithas-MacBook-Pro:lecture1 nikitha$ ls Hello.java
+Hello.java
 ```
 
-Working directory: ```/home``` directory (approach 1) and ```/lecture1``` directory (approach 2)
+Working directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1```
 
-Explanation: I have tried two appraoches with having a file as an argument. I first tried the single testCd file which has no additional content to it, and the output for that is just the file name. I have also used the README file in the lecture1 directory as a parameter and the command once again, since the argument is a file, it just listed its name, lecture1/README.
+Explanation: Since the absolute path of the working directory is still ```/Users/nikitha/lecture1```, I decided to used ```Hello.java``` as the file argument, as it resides with ```lecture1```. Once the command was run, as predicted the code in ```Hello.java``` file was excuted successfully, and the expected result of ```Hello.java``` was printed. the code in ```Hello.java``` ensures that the first arguments after the command gets printed. In this case, it was just the filename ```Hello.java```.
 
 Error or No Error: It is not an error.
 
