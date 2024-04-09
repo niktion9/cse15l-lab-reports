@@ -114,43 +114,64 @@ hello there
 
 Working directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1```
 
-Explanation: A ```cat``` command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. However, run without any arguments, the cat command does not return any details, but outputs a completely blank line in which it expects an input (the inputs in this case we ```"hi"``` and ```"hello there") and returns what was entered.
+Explanation: A ```cat``` command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. However, run without any arguments, the cat command does not return any details, but outputs a completely blank line in which it expects an input (the inputs in this case were ```hi``` and ```hello there```) and returns what was entered.
 
 Error or No Error: It is not an error.
 
 > ### Example 2: cat command with directory argument
 
 ```
-[user@sahara ~]$ cat lecture1
-cat: lecture1: Is a directory
-[user@sahara ~]$
+Nikithas-MacBook-Pro:lecture1 nikitha$ pwd
+/Users/nikitha/lecture1
+Nikithas-MacBook-Pro:lecture1 nikitha$ cat messages
+cat: messages: Is a directory
+Nikithas-MacBook-Pro:lecture1 nikitha$
 ```
 
-Working directory: ```/lecture1``` directory
+Working directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1```
 
-Explanation: Since the only directory in the filesystem is lecture1, it was used as an argument, which outputted a statement indicating that lecture1 is a directory, rather than a file. The cat command only prints the details present in a mentioned file.
+Explanation: Since the only directory within ```lecture1``` was ```messages```, it was used as an argument, which outputted a statement indicating that ```messages``` is a directory, rather than a file. The cat command only prints the details present in a mentioned file, not a directory.
 
 Error or No Error: Yes, it is an error because the cat command does not accept a directory as an argument. It will only work with files.
 
 > ### Example 3: cat command with file argument
 
 ```
-[user@sahara ~]$ cat testCd
-Hi!!
-This file outside lecture1 used for test file arguments!
-[user@sahara ~]$ cat testCd lecture1/README
-Hi!!
-This file outside lecture1 used for test file arguments!
-To use this program:
+Nikithas-MacBook-Pro:lecture1 nikitha$ pwd
+/Users/nikitha/lecture1
+Nikithas-MacBook-Pro:lecture1 nikitha$ cat Hello.java
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Hello {
+  public static void main(String[] args) throws IOException {
+    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+    System.out.println(content);
+  }
+Nikithas-MacBook-Pro:lecture1 nikitha$ cat Hello.java README
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Hello {
+  public static void main(String[] args) throws IOException {
+    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+    System.out.println(content);
+  }
+}To use this program:
 
 javac Hello.java
 java Hello messages/en-us.txt
-[user@sahara ~]$
+Nikithas-MacBook-Pro:lecture1 nikitha$ 
+
 ```
 
-Working Directory: ```/home``` directory (for approach 1) and ```/lecture1``` directory (for approach 2)
+Working Directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1```
 
-Explanation: Since the cat command has the ability to print details of *one or more* files, I have tried two approaches for this example. I have put some text is the testCd file and used that as my first argument, which resulted in the message that was in the file. Then, I also tried the cat command with two files, one being testCd and the other being the README file in lecture1. As expected, the output was a combination of the content present in both the files.
+Explanation: Since the cat command has the ability to print details of *one or more* files, I have tried two approaches for this example. I first put in one file argument, which was ```Hello.java```. Just as expected, the code in ```Hello.java``` was displayed. Then, I tried the cat command with two files, one being ```Hello.java``` and the other being the ```README``` file. As expected, the output was a combination of the content present in both the files.
 
 Error or No Error: It is not an error.
 
