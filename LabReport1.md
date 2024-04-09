@@ -43,7 +43,7 @@ Nikithas-MacBook-Pro:messages nikitha$ cd fi.txt
 bash: cd: fi.txt: Not a directory
 Nikithas-MacBook-Pro:messages nikitha$ 
 ```
-Working Directory: ```/home``` directory
+Working Directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1/messages```
 
 Explanation: For this example, I have added a new file in the filesystem outside of the lecture1 directory, call testCd. The output for entering a testCd as a parameter was an error message that indicated that testCd is not a directory. 
 
