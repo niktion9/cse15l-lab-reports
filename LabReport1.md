@@ -103,18 +103,18 @@ Error or No Error: It is not an error.
 > ### Example 1: cat command with no arguments
 
 ```
-[user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ cat
+Nikithas-MacBook-Pro:lecture1 nikitha$ pwd
+/Users/nikitha/lecture1
+Nikithas-MacBook-Pro:lecture1 nikitha$ cat
 hi
 hi
-helloo
-helloo
-
+hello there
+hello there
 ```
 
-Working directory: ```/home``` directory
+Working directory: Right before the command was run, the absolute path of the working directory was ```/Users/nikitha/lecture1```
 
-Explanation: A cat command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. However, run without any arguments, the cat command does not return any details, but outputs a completely blank line in which it expects an input (the inputs in this case we "hi" and "helloo") and returns what was entered.
+Explanation: A ```cat``` command, short for "concatenate", is responsible for printing the details of one or more files mentioned as arguments. However, run without any arguments, the cat command does not return any details, but outputs a completely blank line in which it expects an input (the inputs in this case we ```"hi"``` and ```"hello there") and returns what was entered.
 
 Error or No Error: It is not an error.
 
