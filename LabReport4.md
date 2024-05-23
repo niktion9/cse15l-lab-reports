@@ -34,7 +34,7 @@ I typed  ```bash``` to initiate the call of the bash file ```test.sh```. I used 
 ## Step7
 <img alt = "Screen Shot 2024-02-27 at 11.07.29 PM.png" src = "https://github.com/niktion9/cse15l-lab-reports/blob/main/Screen%20Shot%202024-02-27%20at%2011.07.29%20PM.png?raw=true">
 
-Keys pressed: ```<enter>``` and ```<tab>```
+Keys pressed: ```vim```, ```L <tab>.j<tab>```, ```<enter>```
 
 I used the ```<tab>``` which filled in the letters for ```ListExamples.java``` which saved a lot of time. Then I used ```<enter>``` to excecute the ```vim``` command in order to adress the error in code of the ```ListExamples.java``` file, and edit it in the terminal itself.
 
